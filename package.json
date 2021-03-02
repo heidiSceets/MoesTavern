@@ -1,0 +1,24 @@
+{
+  "name": "moestavern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heidiSceets/MoesTavern.git"
+  },
+  "author": "Heidi Sceets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heidiSceets/MoesTavern/issues"
+  },
+  "homepage": "https://github.com/heidiSceets/MoesTavern#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
