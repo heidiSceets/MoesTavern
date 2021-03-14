@@ -1,27 +1,25 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F1F1F1;
 }
 
 h1, h2, h3 {
     font-family: 'Roboto Slab', sans-serif
 }
 
-header h2 {
+header h1 {
     font-family: 'Roboto Slab', sans-serif;
     color: #fa8704ff;
-    font-size: xx-large;
 }
 
 
 .jumbotron {
     margin: 0;
     padding: 15px;
-    background-color: #000000ff;
-    color: #968b60ff;
 }
 
 .row-content {
-    padding: 50px 0;
+    padding: 25px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
