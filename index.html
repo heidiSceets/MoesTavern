@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html lang="eng">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-    
+
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Cinzel"/>
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>Moe's - Springfield</title>
 </head>
 
 <body>
-
-    <header>
-        <div>
-            <h1>Moe's</h1>
-            <h1>Home of the Flamin' Moe</h1>
+    <header class="jumbotron jumbotron-fluid">
+    <div class="containter">
+        <div class="row">
+            <div class="col">
+        <h1>Moe's</h1>
+        <h2>Home of the Flamin' Moe</h2>
+            </div>
         </div>
+    </div>
     </header>
 
-    <div>
-        <h2>Events</h2>
+<div class="row row-content">
+    <div class="col-sm-4 order-sm-last col-md-3">
+        <h2 class="text-sm-right">Events</h2>
+    </div>
+    <div class="col">
         <h3>Upcoming Events</h3>
     </div>
+</div>
 
-    <div>
-        <h2>Venue</h2>
+<div class="row row-content">
+    <div class="col-sm-4 col-md-3">
+        <h2 class="text-sm-right">Venue</h2>
+    </div>
+    <div class="col">
         <h3>Stage & Audio Info</h3>
     </div>
+</div>
 
-    <div>
-        <h2>Contact Us</h2>
+<div class="row row-content">
+    <div class="col-sm-4 order-sm-last col-md-3">
+        <h2 class="text-sm-right">Contact Us</h2>
+    </div>
+    <div class="col">
         <h3>Call or Come By</h3>
     </div>
+</div>
 
 <footer>
-    <div>
+    <div class="col-4 col-sm-2 offset-1">
         <h5>Links</h5>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Venue</a></li>
-            <li><a href="#">Contact</a></li>
+        <ul class="list-unstyled">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Venue</a></li>
+        <li><a href="#">Contact</a></li>
         </ul>
     </div>
-    <div>
+    <div class="col-6 col-sm-5 text-center">
         <h5>Social</h5>
         <a href="http://instagram.com/"> Instagram </a>
         <a href="http://facebook.com/"> Facebook </a>
         <a href="http://twitter.com/"> Twitter </a>
         <a href="http://youtube.com/"> YouTube </a>
     </div>
-    <div>
-        Tel:      <br />
+    <div class="col-sm-4 text-center">
+        Tel: <br />
         Email: info@moestavern.com
     </div>
 </footer>
-
-
 
     <!-- jQuery, Popper.js, Bootstrap Javascript plugins -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
