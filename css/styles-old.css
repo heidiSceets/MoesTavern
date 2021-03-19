@@ -1,3 +1,5 @@
+
+
 body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
@@ -107,29 +109,28 @@ h4,
     letter-spacing: 4px;
     opacity: 0.9;
 }
-.navbar li a,
-.navbar .navbar-brand {
-  color: #d5d5d5 !important;
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
-  color: #fff !important;
+    color: #fff !important;
 }
 .navbar-nav li.active a {
-  color: #fff !important;
-  background-color: #29292c !important;
+    color: #fff !important;
+    background-color: #29292c !important;
 }
 .navbar-default .navbar-toggle {
-  border-color: transparent;
+    border-color: transparent;
 }
 .open .dropdown-toggle {
-  color: #fff;
-  background-color: #555 !important;
+    color: #fff;
+    background-color: #555 !important;
 }
 .dropdown-menu li a {
-  color: #000 !important;
+    color: #000 !important;
 }
 .dropdown-menu li a:hover {
-  background-color: red !important;
+    background-color: red !important;
 }
 footer {
   background-color: #2d2d30;
