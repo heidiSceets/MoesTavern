@@ -1,7 +1,6 @@
 {
   "name": "moestavern",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
@@ -22,5 +21,13 @@
   "devDependencies": {
     "lite-server": "^2.6.1",
     "node-sass": "^4.14.1"
-  }
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "description": ""
 }
